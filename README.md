@@ -9,7 +9,7 @@
 
 ### 项目截图说明
 #### 1. 相机预览界面
-![相机预览界面](docs/screenshots/preview.png)
+![相机预览界面](screenshots/2e0df079ef9539bfd56779d72b098529.png)
 
 **功能说明**:
 - 全屏显示相机预览画面
@@ -19,9 +19,9 @@
   - **FPS**: 图像分析帧率
 
 #### 2. 拍照功能
-![请求使用摄像头和麦克风](screensshots/请求使用摄像头和麦克风)
-![拍照功能]
-
+![请求使用摄像头和麦克风](screenshots/请求使用摄像头和麦克风)
+![拍照功能](screenshots/take-photo)
+![拍照功能](screenshots/image.png)
 
 **功能说明**:
 - 点击左侧 "Take Photo" 按钮拍照
@@ -29,7 +29,7 @@
 - 拍照时图像分析继续运行，不中断
 
 #### 3. 视频录制功能
-![视频录制](VideoCapture)
+![视频录制](screenshots/VideoCapture)
 **功能说明**:
 - 点击右侧 "Start Capture" 按钮开始录制
 - 右上角显示红色录制指示灯（录制中）
@@ -37,7 +37,7 @@
 - 录制期间图像分析持续运行
 
 #### 4. Preview + VideoCapture + ImageAnalysis 结合
-![三功能结合](Preview + VideoCapture + ImageAnalysis)
+![三功能结合](screenshots/Preview_VideoCapture_ImageAnalysis)
 
 **功能说明**:
 - **Preview**: 实时显示相机画面
