@@ -399,7 +399,9 @@ private fun startCamera() {
   - **FPS**: 图像分析帧率
 
 #### 2. 拍照功能
-![拍照功能](docs/screenshots/image_capture.png)
+![请求使用摄像头和麦克风](请求使用摄像头和麦克风)
+![拍照功能](take photo)
+
 
 **功能说明**:
 - 点击左侧 "Take Photo" 按钮拍照
@@ -407,8 +409,7 @@ private fun startCamera() {
 - 拍照时图像分析继续运行，不中断
 
 #### 3. 视频录制功能
-![视频录制](docs/screenshots/video_capture.png)
-
+![视频录制](VideoCapture)
 **功能说明**:
 - 点击右侧 "Start Capture" 按钮开始录制
 - 右上角显示红色录制指示灯（录制中）
@@ -416,7 +417,7 @@ private fun startCamera() {
 - 录制期间图像分析持续运行
 
 #### 4. Preview + VideoCapture + ImageAnalysis 结合
-![三功能结合](docs/screenshots/combined.png)
+![三功能结合](Preview + VideoCapture + ImageAnalysis)
 
 **功能说明**:
 - **Preview**: 实时显示相机画面
