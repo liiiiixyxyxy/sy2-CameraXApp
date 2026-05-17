@@ -30,6 +30,7 @@
 
 #### 3. 视频录制功能
 ![视频录制](screenshots/VideoCapture)
+![视频录制](screenshots/video)
 **功能说明**:
 - 点击右侧 "Start Capture" 按钮开始录制
 - 右上角显示红色录制指示灯（录制中）
