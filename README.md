@@ -6,6 +6,45 @@
 
 本项目基于 CSDN 教程 [Android CameraX的基础使用](https://blog.csdn.net/llfjfz/article/details/129924593) 实现，完整实现了 CameraX 的四大核心用例，并演示了 Preview + VideoCapture + ImageAnalysis 的组合使用。
 
+
+### 项目截图说明
+#### 1. 相机预览界面
+![相机预览界面](docs/screenshots/preview.png)
+
+**功能说明**:
+- 全屏显示相机预览画面
+- 左上角显示实时分析数据：
+  - **Brightness**: 画面平均亮度值和等级（0-255）
+  - **Color**: 主色调分析和RGB分量
+  - **FPS**: 图像分析帧率
+
+#### 2. 拍照功能
+![请求使用摄像头和麦克风](screensshots/请求使用摄像头和麦克风)
+![拍照功能]
+
+
+**功能说明**:
+- 点击左侧 "Take Photo" 按钮拍照
+- 照片自动保存到系统相册 `Pictures/CameraX-Image/`
+- 拍照时图像分析继续运行，不中断
+
+#### 3. 视频录制功能
+![视频录制](VideoCapture)
+**功能说明**:
+- 点击右侧 "Start Capture" 按钮开始录制
+- 右上角显示红色录制指示灯（录制中）
+- 按钮文字变为 "Stop Capture"
+- 录制期间图像分析持续运行
+
+#### 4. Preview + VideoCapture + ImageAnalysis 结合
+![三功能结合](Preview + VideoCapture + ImageAnalysis)
+
+**功能说明**:
+- **Preview**: 实时显示相机画面
+- **VideoCapture**: 正在录制视频（红色指示灯亮）
+- **ImageAnalysis**: 实时分析画面亮度、色彩、帧率
+- 三个功能共享同一相机流，同步工作
+
 ## 功能特性
 
 ### 1. Preview（预览功能）
