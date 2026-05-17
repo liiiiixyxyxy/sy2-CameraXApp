@@ -9,6 +9,7 @@
 
 ### 项目截图说明
 #### 1. 相机预览界面
+
 ![相机预览界面](screenshots/2e0df079ef9539bfd56779d72b098529.png)
 
 **功能说明**:
@@ -19,9 +20,15 @@
   - **FPS**: 图像分析帧率
 
 #### 2. 拍照功能
-![请求使用摄像头和麦克风](screenshots/请求使用摄像头和麦克风)
-![拍照功能](screenshots/take-photo)
-![拍照功能](screenshots/image.png)
+
+出现请求使用摄像头和麦克风界面:
+- ![请求使用摄像头和麦克风](screenshots/请求使用摄像头和麦克风)
+
+屏幕上显示一个消息框，在日志中看到一条消息:
+- ![拍照功能](screenshots/take-photo)
+  
+本地的图片库:
+- ![拍照功能](screenshots/image.png)
 
 **功能说明**:
 - 点击左侧 "Take Photo" 按钮拍照
